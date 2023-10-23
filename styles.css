@@ -13,7 +13,7 @@ header{
     height: 80px;
     width: 100%;
     background-color: #073d4f;
-    padding-left: 150px;
+    padding-left: 85px;
     padding-right: 95px;
     position: fixed;
     z-index: 10000;
@@ -27,7 +27,6 @@ header{
 .menu-container > a > img {
     height: 50px;
    
-
 }
 a{
     color: white;
@@ -50,4 +49,12 @@ a:hover{
     background-color: red;
     height: 200%;
     margin-top: 80px;
+}
+.main-container, img{
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
 }
