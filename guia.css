@@ -1,5 +1,7 @@
 /* 
+=================================================
 Como dar estilos en CSS
+=================================================
 */
 
 /* Para llamar a un elemento propio de HTML, como los div, a, p, ul, li, etc */
@@ -28,5 +30,74 @@ div > h1 {
 }
 
 
+
+
+/* 
+=================================================
+Estilos básicos en CSS
+=================================================
+*/
+
+/* --------------------------
+Unidades
+--------------------------*/
+
+div {
+  width: 50px; /* pixeles */
+  width: 50%; /* porcentaje: segun el padre container mas proximo */
+  width: 50vw; /* viewport width: 100vw es el 100% del viewport, es decir, la pantalla, por lo que vw es siempre un porcentaje del ancho de la pantalla */
+  height: 50vh; /* viewport height: igual que vw pero para el height */
+}
+
+/* --------------------------
+Posicionamiento
+--------------------------*/
+
+div {
+  /* referencias a los lados */
+  top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50px;
+
+  /* margenes */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+
+  /* relleno */
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+
+
+
+/* --------------------------
+Background
+--------------------------*/
+
+div {
+  /* para el background-color se puede usar texto, rgb o hexa */
+  background-color: aquamarine;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* --------------------------
+Textos
+--------------------------*/
+
+div {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: bold; /* esto es el grosor de la letra */
+}
 
 
