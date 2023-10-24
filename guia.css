@@ -1,0 +1,32 @@
+/* 
+Como dar estilos en CSS
+*/
+
+/* Para llamar a un elemento propio de HTML, como los div, a, p, ul, li, etc */
+a {
+
+}
+
+/* Para llamar a una clase debemos agregar un punto antes del nombre de la clase */
+.nombre-de-la-clase {
+  /* Esto funciona sin importar donde esté la clase */
+}
+
+/* Podemos llamar a varios elementos o clases al mismo tiempo */
+div, h1, .clase1 {
+  /* Esto le va a aplicar los mismos estilos a todos estos elementos */
+}
+
+/* Podemos llamar a elementos que estan dentro de otros para que se le aplique SOLO a esos
+esto lo podemos usar principalmente cuando no querramos afectar a todos los otros elementos
+aunque tengan la misma clase */
+
+div > h1 {
+  /* Esto solo se aplica a los h1 que esten directamente dentro de un div 
+  lo que quiere decir, que todos los h1 que no esten directamente 
+  dentro de unn div van a seguir sin estilos*/
+}
+
+
+
+
