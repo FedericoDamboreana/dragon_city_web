@@ -46,15 +46,17 @@ a:hover{
 }
 
 .main-container{
-    background-color: red;
+    background: url(background.jpg);
     height: 200%;
     margin-top: 80px;
-}
-.main-container, img{
-    
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
     opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-container, h1{
+    
 }
