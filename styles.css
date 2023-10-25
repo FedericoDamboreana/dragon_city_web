@@ -45,6 +45,21 @@ a{
 a:hover{
     background-color: rgba(200, 200, 200, 0.1);
 }
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, .5);
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+.main-container > *{
+    z-index: 9500;
+}
+
+
 
 .main-container{
     background: url(background.jpg);
@@ -53,19 +68,28 @@ a:hover{
     left: 0;
     top: 0;
     width: 100%;
-    opacity: 0.6;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-left: 10%;
-    padding-right: 10%;
+    
+    position: absolute;
 }
 .first-section{
-    height: 100px;
+    height: 500px;
     width: 100%;
     background-color: red;
-    margin-top: 10%;
+    margin-top: 40px;
+}
+.second-section{
+    height: 100px;
+    background-color: green;
+    top: 15px;
+    margin-left: 20px;
+    margin-right: 110px;
     
+}
+.third-section{
+    height: 100px;
+    background-color: blue;
     
-
 }
