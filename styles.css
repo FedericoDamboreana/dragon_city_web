@@ -65,6 +65,7 @@ a:hover{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
     justify-content: space-evenly;
 }
 .header-section{
@@ -83,7 +84,51 @@ a:hover{
 }
 .body-section{
     height: 75%;
-    background-color: blue;
     width: 100%;
     
+}
+.card{
+    background-color: red;
+    height: 460px;
+    width: 392px;
+    border-radius: 10px;
+}
+.card-image{
+    background-color: green;
+    height: 217px;
+    width: 392px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.tag{
+    background-color: pink;
+    height: 28px;
+    width: 140px;
+    border-radius: 10px;
+    margin-left: -10px;
+    top: 10px;
+    
+}
+.card-description{
+    background-color: blue;
+    height: calc(100% - 217px);
+    width: 392px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+.card-text{
+    background-color:violet ;
+    width: 100%;
+    height: 70px;
+}
+.stock{
+    background-color: yellow;
+    width: 100%;
+    height: 70px;
+}
+.card-bottom{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
 }
