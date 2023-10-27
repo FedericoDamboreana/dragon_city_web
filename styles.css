@@ -92,6 +92,7 @@ a:hover{
     height: 460px;
     width: 392px;
     border-radius: 10px;
+    
 }
 .card-image{
     background-color: green;
@@ -99,14 +100,26 @@ a:hover{
     width: 392px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/712rV4d9AMeFrAXKRtwJDe/cd87f9bb018e138fa1bfb07ca5b9bd8a/960x540_vip_egg.png);
+    background-size: cover;
 }
+
+
+
 .tag{
-    background-color: pink;
+    background-color: #cb2b39;
     height: 28px;
     width: 140px;
     border-radius: 10px;
     margin-left: -10px;
     top: 10px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 11px;
+    font-family: Arial;
     
 }
 .card-description{
@@ -116,6 +129,9 @@ a:hover{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 .card-text{
     background-color:violet ;
