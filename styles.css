@@ -123,7 +123,7 @@ a:hover{
     
 }
 .card-description{
-    background-color: blue;
+    background-color: #f9d5ac;
     height: calc(100% - 217px);
     width: 392px;
     border-bottom-left-radius: 10px;
@@ -134,9 +134,24 @@ a:hover{
     flex-direction: column;
 }
 .card-text{
-    background-color:violet ;
+    background-color:#f9d5ac;
     width: 100%;
     height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+.card-tittle{
+    font-size: 14.5px;
+    color: #3d0202;
+    display: flex;
+    justify-content:flex-start;
+}
+.card-stock{
+    font-size: 11px;
+    color: #dd261b;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
 .stock{
     background-color: yellow;
