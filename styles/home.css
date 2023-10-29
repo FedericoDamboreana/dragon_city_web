@@ -93,12 +93,33 @@
     padding-top: 20px;
 }
 .stock{
-    background-color: yellow;
+    background-color: #eabe8a;
     width: 100%;
     height: 70px;
+    border-radius: 9px;
+    border:1px solid #dbad78;
+    padding: 5px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #3d0202;
 }
-.card-bottom{
-    background-color: aqua;
-    width: 100%;
+.item{
+    display: flex;
+    align-items:center;
+}
+.card-button{
+    margin-top: 10px;
     height: 50px;
+    background: linear-gradient(to bottom, #51E5FA,#006CC7);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: 1px #015fbdb5;
+    cursor: pointer;
 }
+
