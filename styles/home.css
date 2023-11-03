@@ -38,6 +38,7 @@
 .section-body{
     height: 75%;
     width: 100%;
+    margin-bottom: 100px;
 }
 .card{
     height: 460px;
@@ -122,4 +123,30 @@
     -webkit-text-stroke: 1px #015fbdb5;
     cursor: pointer;
 }
-
+.second-section > .section-header{
+    margin-left: 16px;
+    display: flex;
+}
+.second-section > .section-header > h2{
+    margin-bottom: 15px;
+}
+.second-section > .section-header > p{
+    font-size: 14px;
+}
+.second-section > .section-body{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    justify-content: space-around;
+    margin-left: -10px;
+}
+.second-section > .section-body> .card > .card-image{
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/7wao0Rt6TMeeaIXPDGLzGc/1ebe9cb340e1829f8ea249137fc5da0d/960x540_Divine_pass.png?q=75&w=420&fm=avif);
+    
+}
+.second-section > .section-body > .second-card > .card-image{
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/6OhkSN9WOFhLHdW6vUBVJB/58e427c2ddcf5054c85818526ed640c8/960x540_Elite_pass.png?q=75&w=420&fm=avif);
+}
+.second-section > .section-body > .third-card > .card-image{
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/7gCojMiYkBbfnz8bTcLZL5/7c7861b357ba341fa61357ded1c4d57e/Elite-pass-plus-webstore-arcana.png?q=75&w=420&fm=avif);
+}
