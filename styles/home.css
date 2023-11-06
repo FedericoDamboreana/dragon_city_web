@@ -12,8 +12,8 @@
     padding-left: 6.5%;
     padding-right: 6.5%;
 }
-.first-section{
-    height: 630px;
+
+.section{
     width: 100%;
     margin-top: 40px;
     display: flex;
@@ -21,6 +21,13 @@
     padding-left: 20px;
     justify-content: space-evenly;
 }
+
+/* 
+=================================================
+Header
+=================================================
+*/
+
 .section-header {
     height: 15%;
     width: 100%;
@@ -29,87 +36,117 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 .section-header > h2{
     font-size: 30px;
 }
+
 .section-header > p{
     font-size: 14px;
 }
+
+
+
+/* 
+=================================================
+Body
+=================================================
+*/
+
 .section-body{
     height: 75%;
     width: 100%;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.card{
-    height: 460px;
+
+
+
+
+/* 
+=================================================
+Card
+=================================================
+*/
+
+.card {
     width: 392px;
     border-radius: 10px;
 }
-.card-image{
+
+.card-image {
     height: 217px;
     width: 392px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/712rV4d9AMeFrAXKRtwJDe/cd87f9bb018e138fa1bfb07ca5b9bd8a/960x540_vip_egg.png);
     background-size: cover;
 }
-.tag{
-    background-color: #cb2b39;
-    width: 140px;
-    border-radius: 10px;
-    margin-left: -10px;
-    top: 10px;
-    color: white;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    padding: 5px 11px;
-    font-family: Arial;
-}
+
 .card-description {
-    background-color: #f9d5ac;
     height: calc(100% - 217px);
-    width: 392px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color: #f9d5ac;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-.card-text{
-    width: 100%;
-    height: 70px;
+
+.card-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:bolder;
 }
-.card-tittle{
+
+.card-tittle {
     font-size: 14.5px;
     color: #3d0202;
+    font-weight: bolder;
 }
-.card-stock{
+
+.card-subtitle {
+    padding-top: 13px;
     font-size: 11px;
     color: #dd261b;
-    padding-top: 20px;
-}
-.stock{
-    background-color: #eabe8a;
-    width: 100%;
-    height: 70px;
-    border-radius: 9px;
-    border:1px solid #dbad78;
-    padding: 5px 10px;
-    align-items: center;
+    font-weight: bolder;
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+.card-subtitle > p {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+.stock {
+    padding: 5px 10px;
+    background-color: #eabe8a;
+    border-radius: 9px;
+    border:1px solid #dbad78;
     font-size: small;
     color: #3d0202;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-.item{
+
+.item {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    border-bottom: 1px solid #dbad78;
+
     display: flex;
     align-items:center;
 }
+
 .card-button{
     margin-top: 10px;
     height: 50px;
@@ -122,46 +159,47 @@
     -webkit-text-stroke: 1px #015fbdb5;
     cursor: pointer;
 }
-.second-section{
-    background-color: blue;
-    margin-left: 20px;
-    height: 800px;
-    width: 100%;
+
+
+
+
+/* 
+=================================================
+Card Images
+=================================================
+*/
+
+.first-card > .card-image{
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/712rV4d9AMeFrAXKRtwJDe/cd87f9bb018e138fa1bfb07ca5b9bd8a/960x540_vip_egg.png?q=75&w=420&fm=avif);
 }
-.second-section > .section-header > h2{
-    margin-bottom: 15px;
-}
-.second-section > .section-header > p{
-    font-size: 14px;
-}
-.second-section > .section-body{
-    display: flex;
-    flex-direction: row;
-    padding-top: 25px;
-    justify-content: space-between;
-}
-.second-section > .section-body> .card > .card-image{
+.second-card > .card-image{
     background: url(https://images.ctfassets.net/wn7ipiv9ue5v/7wao0Rt6TMeeaIXPDGLzGc/1ebe9cb340e1829f8ea249137fc5da0d/960x540_Divine_pass.png?q=75&w=420&fm=avif);
-    
 }
-.second-section > .section-body > .card-description{
-    font-size: 11px;
-    color: #dd261b;
-    padding-top: 20px;
-}
-.card-text > span{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-    font-size: 11px;
-    color: #dd261b;
-    padding-top: 13px;
-}
-   
-.second-section > .section-body > .second-card > .card-image{
+.third-card > .card-image{
     background: url(https://images.ctfassets.net/wn7ipiv9ue5v/6OhkSN9WOFhLHdW6vUBVJB/58e427c2ddcf5054c85818526ed640c8/960x540_Elite_pass.png?q=75&w=420&fm=avif);
 }
-.second-section > .section-body > .third-card > .card-image{
+.fourth-card > .card-image{
     background: url(https://images.ctfassets.net/wn7ipiv9ue5v/7gCojMiYkBbfnz8bTcLZL5/7c7861b357ba341fa61357ded1c4d57e/Elite-pass-plus-webstore-arcana.png?q=75&w=420&fm=avif);
+}
+
+
+
+/* 
+=================================================
+Decorations
+=================================================
+*/
+
+.tag{
+    background-color: #cb2b39;
+    width: 140px;
+    border-radius: 10px;
+    margin-left: -10px;
+    top: 10px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 5px 11px;
+    font-family: Arial;
 }
