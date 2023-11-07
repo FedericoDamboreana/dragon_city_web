@@ -88,7 +88,7 @@ Card
 }
 
 .card-description {
-    height: calc(100% - 217px);
+    
     background-color: #f9d5ac;
     padding: 20px;
     display: flex;
@@ -157,7 +157,7 @@ Card
     align-items: center;
 }
 .item-content > img{
-    padding-right: 6px;
+    padding: 2px;
 }
 .card-button{
     margin-top: 10px;
