@@ -158,6 +158,7 @@ Card
 }
 .item-content > img{
     padding: 2px;
+    width: 45px;
 }
 .card-button{
     margin-top: 10px;
