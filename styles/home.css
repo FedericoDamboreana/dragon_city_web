@@ -1,6 +1,5 @@
 .main-container{
     background: url("https://images.ctfassets.net/wn7ipiv9ue5v/3GMulYxrXPEnKbNQTc2LUd/732d6878d82ac1128793eb462a7a9976/background.png?q=50&w=1920&fm=avif");
-    height: 200%;
     margin-top: 80px;
     left: 0;
     top: 0;
@@ -59,10 +58,12 @@ Body
 .section-body{
     height: 75%;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 
@@ -194,7 +195,9 @@ Card Images
 .fourth-card > .card-image{
     background: url(https://images.ctfassets.net/wn7ipiv9ue5v/7gCojMiYkBbfnz8bTcLZL5/7c7861b357ba341fa61357ded1c4d57e/Elite-pass-plus-webstore-arcana.png?q=75&w=420&fm=avif);
 }
-
+.fifth-card > .card-image{
+    background: url(https://images.ctfassets.net/wn7ipiv9ue5v/yTPA5BNsNRh9tdO1lQKgS/2da30b3c5de9868ab895f9302872dd74/960x540_jewel_chest.png?q=75&w=420&fm=avif);
+}
 
 
 /* 
